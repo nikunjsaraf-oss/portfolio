@@ -47,3 +47,8 @@
     width: var(--container-width-sm);
   }
 }
+
+.instruction{
+  margin-bottom: 1rem;
+  font-size: 0.80rem;
+}

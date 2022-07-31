@@ -42,6 +42,7 @@ const Testimonials = () => {
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
+      <h5 className="instruction">Swipe on testimonials to see more.</h5>
       <Swiper
         className="container testimonials__container"
         modules={[Pagination]}
