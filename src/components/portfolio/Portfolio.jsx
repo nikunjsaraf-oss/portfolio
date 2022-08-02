@@ -10,29 +10,25 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Furniture AR - Android",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    demo: "https://youtu.be/WVWgIZ5HC0I",
   },
   {
     id: 2,
     image: IMG2,
     title: "Visiting Card AR - Android",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    demo: "https://youtu.be/KJR-NONI82U",
   },
   {
     id: 3,
     image: IMG3,
     title: "The Lost Knight - PC",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    demo: "https://youtu.be/frPs7Vv5dkE",
   },
   {
     id: 4,
     image: IMG4,
     title: "Simple Shooter - PC",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    demo: "https://www.youtube.com/watch?v=6Dh8T5SzGPE",
   },
 ];
 
@@ -43,7 +39,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, demo }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
