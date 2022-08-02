@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/FullSizeRender.jpg";
 import { RiAwardFill } from "react-icons/ri";
 import { AiOutlineGoogle } from "react-icons/ai";
 import { VscFolderLibrary } from "react-icons/vsc";

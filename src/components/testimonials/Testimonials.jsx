@@ -39,7 +39,7 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section id="achievements">
       <h5>My Accomplishments</h5>
       <h2>Achievements</h2>
       <h5 className="instruction">Swipe on an achievement to see more.</h5>
