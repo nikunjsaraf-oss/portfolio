@@ -1,52 +1,36 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/portfolio assets/p1.png";
+import IMG2 from "../../assets/portfolio assets/p2.jpg";
+import IMG3 from "../../assets/portfolio assets/p3.png";
+import IMG4 from "../../assets/portfolio assets/p4.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Title 1",
+    title: "Furniture AR - Android",
     github: "https://www.github.com",
     demo: "https://www.github.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Title 2",
+    title: "Visiting Card AR - Android",
     github: "https://www.github.com",
     demo: "https://www.github.com",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Title 3",
+    title: "The Lost Knight - PC",
     github: "https://www.github.com",
     demo: "https://www.github.com",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Title 4",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Title 5",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Title 6",
+    title: "Simple Shooter - PC",
     github: "https://www.github.com",
     demo: "https://www.github.com",
   },
@@ -67,14 +51,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a
+                {/* <a
                   href={github}
                   target="_blank"
                   rel="noreferrer"
                   className="btn"
                 >
-                  GitHub
-                </a>
+                  Download
+                </a> */}
                 <a
                   href={demo}
                   className="btn btn-primary"

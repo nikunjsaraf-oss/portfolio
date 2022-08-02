@@ -1,2 +1,3 @@
 TODO:
-Change photos
+- Change photos
+- Add videos
