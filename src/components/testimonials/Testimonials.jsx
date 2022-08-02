@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR1 from "../../assets/achievements assets/a1.png";
+import AVTR2 from "../../assets/achievements assets/a2.jpg";
+import AVTR3 from "../../assets/achievements assets/a3.webp";
+import AVTR4 from "../../assets/achievements assets/a4.webp";
 
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,37 +12,37 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    avatar: AVTR1,
-    name: "Tina",
+    avatar: AVTR4,
+    name: "Flutter Festival",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil non, dolores quae esse adipisci consequatur et recusandae unde molestias quas ut suscipit labore, reiciendis corporis totam, quod aspernatur.",
-  },
-  {
-    avatar: AVTR2,
-    name: "John",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil non, dolores quae esse adipisci consequatur et recusandae unde molestias quas ut suscipit labore, reiciendis corporis totam, quod aspernatur.",
+      "Lead facilitator of GDSC's “Flutter Festival”. Conducted many study sessions consisting more than 100 studemts and helped them learn cross-platform app development using the Flutter SDk by Google.",
   },
   {
     avatar: AVTR3,
-    name: "Mark",
+    name: "Android Study Jams",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil non, dolores quae esse adipisci consequatur et recusandae unde molestias quas ut suscipit labore, reiciendis corporis totam, quod aspernatur.",
+      "Lead facilitator of GDSC's “Android Study Jams”. Conducted many study sessions consisting more than 100 studemts and helped them learn Android Devlopment using Kotlin.",
   },
   {
-    avatar: AVTR4,
-    name: "Mia",
+    avatar: AVTR2,
+    name: "CodeSpark",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda nihil non, dolores quae esse adipisci consequatur et recusandae unde molestias quas ut suscipit labore, reiciendis corporis totam, quod aspernatur.",
+      "Co-host of a National level coding contest “CodeSpark”- February 2021",
+  },
+
+  {
+    avatar: AVTR1,
+    name: "HackerRank",
+    review: "Gold Badge Hackerrank - Java.",
   },
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
-      <h5 className="instruction">Swipe on testimonials to see more.</h5>
+      <h5>My Accomplishments</h5>
+      <h2>Achievements</h2>
+      <h5 className="instruction">Swipe on an achievement to see more.</h5>
       <Swiper
         className="container testimonials__container"
         modules={[Pagination]}
