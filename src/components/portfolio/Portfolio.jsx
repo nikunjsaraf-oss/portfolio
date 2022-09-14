@@ -1,65 +1,45 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/portfolio assets/p1.png";
+import IMG2 from "../../assets/portfolio assets/p2.jpg";
+import IMG3 from "../../assets/portfolio assets/p3.png";
+import IMG4 from "../../assets/portfolio assets/p4.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Title 1",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    title: "Furniture AR - Android",
+    demo: "https://youtu.be/WVWgIZ5HC0I",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Title 2",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    title: "Visiting Card AR - Android",
+    demo: "https://youtu.be/KJR-NONI82U",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Title 3",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    title: "The Lost Knight - PC",
+    demo: "https://youtu.be/frPs7Vv5dkE",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Title 4",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Title 5",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Title 6",
-    github: "https://www.github.com",
-    demo: "https://www.github.com",
+    title: "Simple Shooter - PC",
+    demo: "https://www.youtube.com/watch?v=6Dh8T5SzGPE",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section>
+    <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, demo }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -67,14 +47,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a
+                {/* <a
                   href={github}
                   target="_blank"
                   rel="noreferrer"
                   className="btn"
                 >
-                  GitHub
-                </a>
+                  Download
+                </a> */}
                 <a
                   href={demo}
                   className="btn btn-primary"

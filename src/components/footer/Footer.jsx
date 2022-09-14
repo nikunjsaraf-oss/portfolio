@@ -9,9 +9,11 @@ import { BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a href="/#" className="footer__logo">
-        Nikunj
-      </a>
+      <div className="footer__logo">
+        <a href="/#">
+          Nikunj
+        </a>
+      </div>
 
       <ul className="permalinks">
         <li>
@@ -27,10 +29,10 @@ const Footer = () => {
           <a href="/#services">Services</a>
         </li>
         <li>
-          <a href="/#portfolo">Portfolio</a>
+          <a href="/#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/#testimonials">Testimonials</a>
+          <a href="/#achievements">Achievements</a>
         </li>
         <li>
           <a href="/#contact">Contact</a>

@@ -29,8 +29,7 @@
 
 .experience__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2 rem;
+  grid-template-columns: 1fr;
 }
 
 .experience__details {
@@ -63,6 +62,6 @@
     gap: 1rem;
   }
   .experience__container > div {
-    width: max-content;
+    width: fit-content;
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/FullSizeRender.jpg";
 import { RiAwardFill } from "react-icons/ri";
-import { FiUsers } from "react-icons/fi";
+import { AiOutlineGoogle } from "react-icons/ai";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -21,24 +21,25 @@ const About = () => {
             <article className="about__card">
               <RiAwardFill className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years working</small>
+              <small>1+ year internship at Motion Dime</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <AiOutlineGoogle className="about__icon" />
+              <h5>GDSC Core Member</h5>
+              <small>2 years</small>
             </article>
-            <article className="about__card">
+            <article className="about__card project__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>10+ completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            adipisci ducimus quo, quisquam ratione amet cumque alias facilis
-            officiis voluptatum similique voluptate tenetur magnam magni.
-            Cupiditate totam maxime nisi laborum!
+            A final year engineering student of Information Technology at Dr. D.
+            Y. Patil Institute of Technology, Pimpri. Developed and published
+            many games and also various Augmented reality applications which
+            solves many problems. I also develop cross platform mobile
+            applications and websites.
           </p>
           <a href="#contact" className="btn btn-primary contact__button">
             Let's Talk
