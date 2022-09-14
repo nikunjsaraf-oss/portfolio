@@ -38,7 +38,7 @@ const About = () => {
             A final year engineering student of Information Technology at Dr. D.
             Y. Patil Institute of Technology, Pimpri. Developed and published
             many games and also various Augmented reality applications which
-            solves many problems. I also develop cross platfrom mobile
+            solves many problems. I also develop cross platform mobile
             applications and websites.
           </p>
           <a href="#contact" className="btn btn-primary contact__button">

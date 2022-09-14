@@ -15,13 +15,13 @@ const data = [
     avatar: AVTR4,
     name: "Flutter Festival",
     review:
-      "Lead facilitator of GDSC's “Flutter Festival”. Conducted many study sessions consisting more than 100 studemts and helped them learn cross-platform app development using the Flutter SDk by Google.",
+      "Lead facilitator of GDSC's “Flutter Festival”. Conducted many study sessions consisting more than 100 students and helped them learn cross-platform app development using the Flutter SDK by Google.",
   },
   {
     avatar: AVTR3,
     name: "Android Study Jams",
     review:
-      "Lead facilitator of GDSC's “Android Study Jams”. Conducted many study sessions consisting more than 100 studemts and helped them learn Android Devlopment using Kotlin.",
+      "Lead facilitator of GDSC's “Android Study Jams”. Conducted many study sessions consisting more than 100 students and helped them learn Android Development using Kotlin.",
   },
   {
     avatar: AVTR2,
@@ -33,7 +33,7 @@ const data = [
   {
     avatar: AVTR1,
     name: "HackerRank",
-    review: "Gold Badge Hackerrank - Java.",
+    review: "Gold Badge HackerRank - Java.",
   },
 ];
 

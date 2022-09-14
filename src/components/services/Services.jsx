@@ -79,7 +79,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Augmented Reality</p>
+              <p>Augmented Reality Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -119,10 +119,6 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>Marathi</p>
-            </li>{" "}
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Bengali</p>
             </li>{" "}
           </ul>
         </article>{" "}
